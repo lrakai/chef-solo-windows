@@ -1,5 +1,7 @@
 function Set-LabArtifacts {
-    Invoke-WebRequest -Uri "https://packages.chef.io/files/stable/chefdk/2.0.26/windows/2016/chefdk-2.0.26-1-x86.msi" -OutFile C:\Users\student\Desktop\chefdk-2.0.26-1-x86.msi
+    $ProgressPreference = 'SilentlyContinue' # Ignore progress updates (100X speedup)
+    Invoke-WebRequest -Uri "https://packages.chef.io/files/stable/chefdk/2.0.26/windows/2016/chefdk-2.0.26-1-x86.msi" -OutFile D:\chefdk-2.0.26-1-x86.msi
+    Move-Item D:\chefdk-2.0.26-1-x86.msi C:\Users\student\Desktop\chefdk-2.0.26-1-x86.msi
 }
 
 function Disable-InternetExplorerESC {
