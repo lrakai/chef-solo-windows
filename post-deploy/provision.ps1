@@ -1,6 +1,5 @@
 function Set-LabArtifacts {
-    # Use the temporary drive D: which is an SSD for A1 V2 instances
-    Invoke-WebRequest -Uri "https://packages.chef.io/files/stable/chef/13.2.20/windows/2016/chef-client-13.2.20-1-x64.msi" -OutFile C:\Users\student\Desktop\chef-client-13.2.20-1-x64.msi
+    Invoke-WebRequest -Uri "https://packages.chef.io/files/stable/chefdk/2.0.26/windows/2016/chefdk-2.0.26-1-x86.msi" -OutFile C:\Users\student\Desktop\chefdk-2.0.26-1-x86.msi
 }
 
 function Disable-InternetExplorerESC {
