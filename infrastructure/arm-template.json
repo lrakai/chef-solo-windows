@@ -128,7 +128,7 @@
                         "autoUpgradeMinorVersion": true,
                         "settings": {
                             "fileUris": [
-                                "https://raw.githubusercontent.com/cloudacademy/chef-solo-windows/master/provision.ps1"
+                                "https://raw.githubusercontent.com/lrakai/chef-solo-windows/master/provision.ps1"
                             ]
                         },
                         "protectedSettings": {
