@@ -1,7 +1,7 @@
 repo = 'C:\chef\repo'
 
 # Paths
-cookbook_path  repo + '\cookbooks'
+cookbook_path  repo + '\cookbooks\vendored' 
 
 # Logging
 log_level      :info   # Log additional info
