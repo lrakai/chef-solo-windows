@@ -28,7 +28,7 @@
         },
         "adminPassword": {
             "type": "string",
-            "defaultValue": "1Cloud_Academy_Labs!"
+            "defaultValue": "1Lab_Virtual_Machine!"
         },
         "storageAccountName": {
             "type": "string",
